@@ -16,7 +16,7 @@ module.exports = function karmaConfig (config) {
     reporters: ['spec', 'coverage'],
     files: ['./index.js'],
     files: [
-      '../../node_modules/es-promise/dist/es6-promise.auto.js',
+      '../../node_modules/es6-promise/dist/es6-promise.auto.js',
       './index.js'
     ],
     preprocessors: {

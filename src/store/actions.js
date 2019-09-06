@@ -23,5 +23,9 @@ export default {
   removeTask: ({commit}) => {
     // TODO:
     throw new Error('removeTask action should be implemented')
+  },
+  logout: ({commit}) => {
+    // TODO:
+    throw new Error('logout action should be implemented')
   }
 }

@@ -6,7 +6,20 @@ import mutations from './mutations'
 
 Vue.use(Vuex)
 
+const state = {
+  // ログイン・ログアウトに用いる認証情報
+  auth: {
+    token: null,
+    userId: null
+  },
+  // ボードが持つタスクリスト
+  board: {
+    lists: []
+  }
+}
+
 export default new Vuex.Store({
+  state,
   getters,
   actions,
   mutations,

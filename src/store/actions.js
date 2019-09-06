@@ -11,5 +11,9 @@ export default {
   fetchLists: ({commit}) => {
     // TODO:
     throw new Error('fetchLists action should be implemented')
+  },
+  addTask: ({commit}) => {
+    // TODO:
+    throw new Error('addTask action should be implemented')
   }
 }

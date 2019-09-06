@@ -1,3 +1,3 @@
 <template>
- <p>ログインページ</p>
+  <p>ログインページ</p>
 </template>

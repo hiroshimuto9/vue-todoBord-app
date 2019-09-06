@@ -1,3 +1,3 @@
 <template>
- <p>ボードページ</p>
+  <p>ボードページ</p>
 </template>

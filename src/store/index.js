@@ -10,7 +10,7 @@ const state = {
   // ログイン・ログアウトに用いる認証情報
   auth: {
     token: null,
-    userId: null,
+    userId: null
   },
   // ボードが持つタスクリスト
   board: {

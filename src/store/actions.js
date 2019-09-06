@@ -7,5 +7,5 @@ export default {
   login: ({commit}) => {
     // TODO:
     throw new Error('login action should be implemented')
-  },
+  }
 }

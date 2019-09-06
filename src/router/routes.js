@@ -5,15 +5,15 @@ import TDBTaskDetailModal from '@/components/templates/TDBTaskDetailModal.vue'
 export default [{
   path: '/',
   component: TDBBoardView,
-  meta: { requireAuth: true },
-},{
+  meta: { requireAuth: true }
+}, {
   path: '/login',
-  component: TDBLoginView,
-},{
+  component: TDBLoginView
+}, {
   path: '/tasks/:id',
   component: TDBTaskDetailModal,
-  meta: { requireAuth: true },
-},{
+  meta: { requireAuth: true }
+}, {
   path: '*',
-  redirect: '/',
+  redirect: '/'
 }]

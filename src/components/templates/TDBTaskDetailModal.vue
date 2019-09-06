@@ -1,3 +1,3 @@
 <template>
- <p>タスク詳細ページ</p>
+  <p>タスク詳細ページ</p>
 </template>

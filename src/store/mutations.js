@@ -12,5 +12,9 @@ export default {
   [types.ADD_TASK] (state, payload) {
     // TODO:
     throw new Error('ADD_TASK mutation should be implemented')
+  },
+  [types.UPDATE_TASK] (state, payload) {
+    // TODO:
+    throw new Error('UPDATE_TASK mutation should be implemented')
   }
 }

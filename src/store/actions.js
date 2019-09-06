@@ -15,5 +15,9 @@ export default {
   addTask: ({commit}) => {
     // TODO:
     throw new Error('addTask action should be implemented')
+  },
+  updateTask: ({commit}) => {
+    // TODO:
+    throw new Error('updateTask action should be implemented')
   }
 }

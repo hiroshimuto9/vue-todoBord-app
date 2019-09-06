@@ -16,5 +16,9 @@ export default {
   [types.UPDATE_TASK] (state, payload) {
     // TODO:
     throw new Error('UPDATE_TASK mutation should be implemented')
+  },
+  [types.REMOVE_TASK] (state, payload) {
+    // TODO:
+    throw new Error('REMOVE_TASK mutation should be implemented')
   }
 }

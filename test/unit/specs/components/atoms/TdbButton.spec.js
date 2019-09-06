@@ -11,7 +11,7 @@ describe('TdbButton', () => {
         it('tdb-buttonクラスを持つbutton要素で構成されていること', () => {
           const button = mount(TdbButton)
           // expectでテスト対象に期待される振る舞いを定義
-          expect(button.is('button').to.equal(true))
+          expect(button.is('button')).to.equal(true)
           expect(button.classes()).to.include('tdb-button')
         })
       })
@@ -23,7 +23,7 @@ describe('TdbButton', () => {
             propsData: {type: 'button'}
           })
           // expectでテスト対象に期待される振る舞いを定義
-          expect(button.is('button').to.equal(true))
+          expect(button.is('button')).to.equal(true)
           expect(button.classes()).to.include('tdb-button')
         })
       })
@@ -35,7 +35,7 @@ describe('TdbButton', () => {
             propsData: {type: 'text'}
           })
           // expectでテスト対象に期待される振る舞いを定義
-          expect(button.is('button').to.equal(true))
+          expect(button.is('button')).to.equal(true)
           expect(button.classes()).to.include('tdb-button-text')
         })
       })
@@ -93,6 +93,5 @@ describe('TdbButton', () => {
         })
       })
     })
-
   })
 })
